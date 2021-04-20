@@ -10,5 +10,5 @@ server.get("/", (req, res) => {
 
 const port = process.env.PORT || 8000;
 server.listen(port, () => {
-  console.log("Listening on http://localhost:" + PerformanceNavigationTiming);
+  console.log("Listening on http://localhost:" + port);
 });
